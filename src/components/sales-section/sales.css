@@ -1,0 +1,51 @@
+.sales__section {
+    margin-top: 200px;
+}
+
+.sales__text-body h3 {
+    color: #333;
+    font-family: var(--second-font);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+
+.sales__text-body dd {
+    margin-top: 68px;
+}
+
+.sales__unordered-list dd {
+    margin-top: 33px;
+    color: #666;
+    font-family: var(--second-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.66; /* 166.667% */
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+}
+
+dd {
+    display: flex; /* Используем flex для элементов dd */
+    padding-inline-start: 1ch;
+  }
+
+  dd::before {
+    content: url('../../assets/img/speciality/list_img.svg');
+    margin-right: 1ch; /* Добавим немного отступа между изображением и текстом */
+}
+
+.sales__wrapper {
+    position: relative;
+}
+
+.sales__wrapper img {
+    position: absolute;
+    top: -195px;
+    right: -343px;
+    z-index: -1;
+}

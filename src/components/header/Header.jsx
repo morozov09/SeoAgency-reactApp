@@ -41,7 +41,7 @@ const Header = () => {
             <div className="header__promo-text-wrapper">
                 <h1>
                 Grow your <br />
-                Business Google Ads & <br />
+                Business  Google Ads &
                 Instagram Ads
                 </h1>
                 <p className="header__promo-p">It is a long established fact that a reader will be distracted by the readable.</p>

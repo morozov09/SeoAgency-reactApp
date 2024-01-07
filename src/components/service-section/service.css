@@ -1,0 +1,97 @@
+.service__wrapper h2 {
+    color: #333;
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+
+.service__wrapper h4 {
+    margin-top: 8px;
+    color: #333;
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2; /* 200% */
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+}
+
+.service__items {
+    margin-top: 60px;
+    column-gap: 5px;
+}
+
+.service__item {
+    padding: 40px 20px 35px 20px;
+    max-width: 360px;
+    min-height: 365px;
+    border-radius: 40px;
+    border: 1px solid #E5E5E5;
+    background: #FFF;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+.service__item .service__item-img svg circle, .service__item .service__item-img svg path  {
+    transition: all .3s ease-in-out;
+}
+
+.service__item:hover .service__item-img svg circle {
+    fill: #fff;
+    opacity: 0.2;
+}
+
+.service__item:hover .service__item-img svg path {
+    fill: #fff;
+}
+
+.service__item:hover .serive__item-head, .service__item:hover .service__item-descr  {
+    color: #fff;
+}
+
+.service__item:hover {
+    background-color: #545EE1;
+}
+
+.service__item:nth-child(n+4) {
+    margin-top: 40px;
+}
+
+.service__item-img {
+    display: flex;
+    justify-content: center;
+    padding: 19px;
+    border-radius: 80px;
+}
+
+.serive__item-head {
+    margin-top: 25px;
+    color: #333;
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    text-transform: capitalize;
+}
+
+.service__item-descr {
+    margin-top: 30px;
+    color: #666;
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.66; /* 166.667% */
+    letter-spacing: 0.18px;
+}

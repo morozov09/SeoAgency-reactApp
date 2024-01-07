@@ -1,15 +1,10 @@
-.section__since {
-    margin-block: 68px 168px;
+.projects__section {
+    margin-top: 180px;
 }
 
-.since__img {
-    max-width: 609px;
-    width: 100%;
-    max-height: 417.686px;
-}
-
-.since__text-body h2 {
+.projects__wrapper h3 {
     color: #333;
+    text-align: center;
     font-family: var(--second-font);
     font-size: 48px;
     font-style: normal;
@@ -19,26 +14,40 @@
     text-transform: capitalize;
 }
 
-.since__text-body h4 {
-    margin-top: 7px;
+.projects__wrapper h4 {
     color: #333;
+    text-align: center;
     font-family: var(--second-font);
     font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 2; /* 200% */
     letter-spacing: 0.18px;
     text-transform: capitalize;
 }
 
-.since__text-body p {
-    margin-top: 28px;
-    color: #666;
+.projects__filters {
+    margin-top: 60px;
+    column-gap: 50px;
+    margin-bottom: 40px;
+}
+
+.project__filter {
+    color: #B2B2B2;
     font-family: var(--second-font);
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 1.8; /* 188.889% */
+    font-weight: 600;
+    line-height: 36px;
     letter-spacing: 0.18px;
     text-transform: capitalize;
+    transition: all .3s ease-in-out;
+}
+
+.project__filter:hover {
+    color: #545EE1;
+}
+
+.project__filter.active {
+    color: #545EE1;
 }
