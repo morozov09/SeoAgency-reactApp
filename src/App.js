@@ -1,3 +1,4 @@
+import Blog from "./components/blog/Blog";
 import Header from "./components/header/Header";
 import Projects from "./components/projects/Projects";
 import Review from "./components/reviews/Reviews";
@@ -15,6 +16,7 @@ function App() {
       <Sales />
       <Projects />
       <Review />
+      <Blog />
     </>
   );
 }

@@ -1,0 +1,30 @@
+.blog {
+    margin-top: 152px;
+}
+
+.blog__body h2 {
+    color: #333;
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+
+.blog__body h4 {
+    margin-top: 15px;
+    color: #333;
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2; /* 200% */
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+}
+
+
