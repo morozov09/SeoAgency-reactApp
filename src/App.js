@@ -1,5 +1,6 @@
 import Header from "./components/header/Header";
 import Projects from "./components/projects/Projects";
+import Review from "./components/reviews/Reviews";
 import Sales from "./components/sales-section/Sales";
 import Service from "./components/service-section/Service";
 import Since from "./components/since-section/Since";
@@ -13,6 +14,7 @@ function App() {
       <Service />
       <Sales />
       <Projects />
+      <Review />
     </>
   );
 }

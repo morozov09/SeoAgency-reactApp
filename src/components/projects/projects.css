@@ -51,3 +51,11 @@
 .project__filter.active {
     color: #545EE1;
 }
+
+.projects__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+

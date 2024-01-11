@@ -1,6 +1,11 @@
 import projectsStyles from './projects.css';
 import { useState } from 'react';
 
+import projectImg from '../../assets/img/projects/project.png'
+import projectImg02 from '../../assets/img/projects/project02.png'
+import projectImg03 from '../../assets/img/projects/project03.png'
+import projectImg04 from '../../assets/img/projects/project04.png'
+
 const Projects = () => {
     const [activeFilter, setActiveFilter] = useState("All");
 
@@ -42,6 +47,13 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="projects__wrap">
+                    <img className='project-1' src={projectImg} alt="projectImg" />
+                    <img className='project-2' src={projectImg02} alt="projectImg" />
+                    <img className='project-4' src={projectImg04} alt="projectImg" />
+                    <img className='project-3' src={projectImg03} alt="projectImg" />
+                    
                 </div>
             </div>
         </section>
