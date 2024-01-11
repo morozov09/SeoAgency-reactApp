@@ -35,6 +35,13 @@
     left: 44%;
 }
 
+.review__bg02 {
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 4%;
+    right: 10%;
+}
+
 .review__slider {
     max-width: 450px !important;
 }

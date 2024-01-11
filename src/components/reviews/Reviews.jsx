@@ -9,6 +9,7 @@ const Review = () => {
             <div className="container">
                 <div className="reviews__body d-flex a-items j-cont">
                     <img className='review__bg' src={reviewBg} alt="reviewBg" />
+                    <img className='review__bg02' src={reviewBg} alt="reviewBg" />
                     <div className="reviews__textside">
                         <h3>
                         What Our Happy <br />
