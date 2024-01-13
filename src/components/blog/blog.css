@@ -1,5 +1,6 @@
 .blog {
     margin-top: 152px;
+    margin-bottom: 162px;
 }
 
 .blog__body h2 {
@@ -16,6 +17,7 @@
 
 .blog__body h4 {
     margin-top: 15px;
+    margin-bottom: 60px;
     color: #333;
     text-align: center;
     font-family: var(--second-font);

@@ -68,7 +68,8 @@
 
 .swiper-pagination-bullet {
     border-radius: 15px;
-    background: #4918d163;
+    opacity: 0.5;
+    background: #FFF;
 }
 
 .swiper-pagination-bullet-active {
@@ -82,4 +83,44 @@
     height: 100%;
     height: 340px;
 }
+
+.slide__blog-body {
+    max-width: 550px;
+    width: 100%;
+}
+
+.slide__blog-body h4 {
+    max-width: 500px;
+    text-align: left;
+    color: #191919;
+    font-family: var(--second-font);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.38; /* 138.462% */
+    letter-spacing: 0.26px;
+    text-transform: capitalize;
+}
   
+
+
+#root > section.blog > div > div > div > div > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 0px;
+}
+
+#root > section.blog > div > div > div {
+    min-height: 480px;
+}
+
+#root > section.blog > div > div > div > div > div.swiper-wrapper > div.swiper-slide.swiper-slide-active > div {
+    position: relative;
+    user-select: none;
+}
+
+.slide__link {
+    position: absolute;
+    user-select: none;
+    width: 100%;
+    height: 82%;
+    left: 0;
+}
