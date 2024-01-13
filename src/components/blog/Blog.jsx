@@ -5,7 +5,7 @@ import BlogSwiper from '../blogSwiper/BlogSwiper';
 
 const Blog = () => {
     return ( 
-        <section className="blog">
+        <section id='blog' className="blog">
             <div className="container">
                 <div className="blog__body">
                     <h2>Blog</h2>

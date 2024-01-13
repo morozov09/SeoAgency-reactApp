@@ -14,7 +14,7 @@ const Projects = () => {
     }
 
     return (
-        <section className="projects__section">
+        <section id='projects' className="projects__section">
             <div className="container">
                 <div className="projects__wrapper">
                     <h3>Our Projects</h3>

@@ -2,7 +2,7 @@ import serviceStyles from './service.css';
 
 const Service = () => {
     return (
-      <section className="service__section">
+      <section id='service' className="service__section">
         <div className="container">
           <div className="service__wrapper">
             <h2>Our Services</h2>

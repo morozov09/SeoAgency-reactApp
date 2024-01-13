@@ -4,7 +4,7 @@ import sinceImg from '../../assets/img/since/since.png'
 
 const Since = () => {
     return (
-      <section className="section__since">
+      <section id='about' className="section__since">
         <div className="container">
           <div className="since__wrapper d-flex a-items j-cont">
             <img src={sinceImg} alt="sinceImg" className="since__img" />

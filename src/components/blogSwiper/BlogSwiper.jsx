@@ -19,6 +19,7 @@ export default function App() {
         pagination={{
           clickable: true,
         }}
+        loop={true}
         modules={[Pagination]}
         slidesPerView={2}
         spaceBetween={20}
